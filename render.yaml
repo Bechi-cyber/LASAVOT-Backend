@@ -27,7 +27,9 @@ services:
       - key: RATE_LIMIT_MAX_REQUESTS
         value: 100
       - key: CORS_ORIGIN
-        value: https://lesavot-frontend.onrender.com
+        value: https://lasavot.onrender.com
+      - key: ALLOWED_ORIGINS
+        value: http://localhost:3000,http://127.0.0.1:3000,http://localhost:8080,http://127.0.0.1:8080,https://lasavot.onrender.com
       - key: EMAIL_USER
         value: ""
       - key: EMAIL_PASSWORD
